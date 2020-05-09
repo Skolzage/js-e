@@ -1,0 +1,12 @@
+1. WebPack
+    babel
+    scss
+    Eslint
+    Modes
+        -dev
+            devServer, SourceMap, Eslint. Not Minified js & css
+        -prod
+            minified Code
+2. Git
+    production
+    development
