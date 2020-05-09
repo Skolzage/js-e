@@ -13,7 +13,9 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="ProjectId" id="1be91uw8N5SV06dxwDpNBXCyAcm" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="C:/Program Files/Git/cmd/git.exe" />
@@ -44,7 +46,7 @@
       <workItem from="1588981487821" duration="2026000" />
       <workItem from="1588983584678" duration="1031000" />
       <workItem from="1588984729951" duration="2122000" />
-      <workItem from="1588986882966" duration="796000" />
+      <workItem from="1588986882966" duration="1319000" />
     </task>
     <servers />
   </component>
