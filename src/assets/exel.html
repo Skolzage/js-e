@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Pure JavaScript Excel</title>
+</head>
+
+<body>
+
+  <div id="app">
+
+    <div class="exel">
+
+      <!-- header -->
+      <div class="exel__header">
+        <input class="exel__header-input" type="text" type="text" value="Новая таблица">
+        <div class="exel__header-btn-wrapp">
+
+          <span class="exel__header-btn">
+            <i class="material-icons">delete</i>
+          </span>
+
+          <span class="exel__header-btn">
+            <i class="material-icons">exit_to_app</i>
+          </span>
+        </div>
+      </div>
+
+      <!-- toolbar -->
+      <div class="exel__toolbar">
+        <div class="toolbar">
+          <div class="toolbar__block-format">
+            <div class="toolbar__btn">
+              <span class="material-icons">format_bold</span>
+            </div>
+
+            <div class="toolbar__btn">
+              <span class="material-icons">format_italic</span>
+            </div>
+
+            <div class="toolbar__btn">
+              <span class="material-icons">format_underlined
+
+              </span>
+            </div>
+          </div>
+          <div class="toolbar__block-format">
+            <div class="toolbar__btn">
+              <span class="material-icons">format_align_right</span>
+            </div>
+
+            <div class="toolbar__btn">
+              <span class="material-icons">format_align_justify</span>
+            </div>
+
+            <div class="toolbar__btn">
+              <span class="material-icons">format_align_left</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- formula -->
+      <div class="exel__formula ">
+        
+        <div class="exel__formula-fx">fx</div>
+        <div class="exel__formula-input" contenteditable="true" spellcheck="false">
+        </div>
+        
+      </div>
+
+      <!-- table -->
+      <div class="exel__table">
+        <div class="row">
+          <div class="row-info"></div>
+          <div class="row-data">
+            <div class="row-column">A</div>
+            <div class="row-column">B</div>
+            <div class="row-column">C</div>
+     
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="row-info">1</div>
+          <div class="row-data">
+            <div class="row-cell selected" contenteditable="true">A1</div>
+            <div class="row-cell" contenteditable="true">B1</div>
+            <div class="row-cell" contenteditable="true">C1</div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="row-info">2</div>
+          <div class="row-data">
+            <div class="row-cell"></div>
+            <div class="row-cell"></div>
+            <div class="row-cell"></div>
+          </div>
+        </div>
+      </div> 
+    </div>
+  </div>
+</body>
+
+</html>

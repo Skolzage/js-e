@@ -1,0 +1,58 @@
+.exel__table {
+    // padding: 0 20px;
+    border-top: 1px solid $line-color;
+    overflow-x: auto;
+}
+.row {
+    display: flex;
+    min-height: 20px;
+    align-items: center;
+    height: $row-height;
+}
+.row-info {
+    min-width: $info-cell-width;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $line-color;
+    border-top: 0;
+    height: 100%;
+}
+.row-data {
+    display: flex;
+    height: $row-height;
+}
+.row-column {
+    min-width: 40px;
+    width: $cell-width;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f8f9fa;
+    border: 1px solid $line-color;
+    border-top: none;
+    border-left: none;
+}
+
+.row-cell {
+    min-width: 40px;
+    width: $cell-width;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 1px solid $line-color;
+    border-top: none;
+    border-left: none;
+    padding: 0 5px;
+    outline: none;
+    white-space: nowrap;
+    
+}
+
+.selected{
+    outline: 2px solid #3c74ff;
+    border: 0;
+}

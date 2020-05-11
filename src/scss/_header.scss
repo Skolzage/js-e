@@ -1,0 +1,32 @@
+.exel__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+ }
+.exel__header-input {
+    padding: 5px;
+    border: 1px solid transparent;
+    &:focus{
+        border: 1px solid $line-color;
+    }
+    &:hover{
+        border: 1px solid $line-color;
+    }
+    outline: none;
+ }
+ .exel__header-btn-wrapp{
+    display: flex;
+    align-items: center;
+ }
+.exel__header-btn {
+    display: block;
+    cursor: pointer;
+    &:active{
+        color: red;
+    }
+    &:hover{
+        transform: scale(1.2);
+    }
+ }
+.material-icons { }

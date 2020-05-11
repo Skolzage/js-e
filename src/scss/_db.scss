@@ -1,0 +1,61 @@
+.db { 
+   
+}
+.db_header { 
+    text-align: center;
+}
+.db__new-wrapp{
+    
+    padding: 20px 20px;
+    
+}
+.db__new {
+    background-color: #dbdbdb3a;
+    
+    a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 160px;
+        height: 160px;
+        border: 1px solid $line-color;
+        color: black;
+        text-decoration: none;
+        border-radius: 4px;
+        background-color: #fff;
+        &:hover{
+            border: 1px solid green;
+            color: green;
+        }
+    }
+ }
+.db__table { 
+}
+.db__table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    padding: 20px;
+ }
+ .db__table-items { 
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 15px 20px;
+     margin: 5px 0;
+     cursor: pointer;
+     &:hover{
+         background-color: #dbdbdb3a;
+         border-radius: 20px;
+     }
+ }
+ .db__table-item-name {
+     display: block;
+     text-decoration: none;
+     color: black;
+     &:hover{
+         text-decoration: underline;
+     }
+ }
+ .db__table-item-date { }
