@@ -1,0 +1,28 @@
+.exel__toolbar {
+    border-top: 1px solid $line-color;
+    border-bottom: 1px solid $line-color;
+ }
+.toolbar {
+    display: flex;
+    padding: 10px 20px 8px;
+    align-items: center;
+ }
+.toolbar__block-format { 
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid $line-color;
+    display: flex;
+    align-items: center;
+}
+.toolbar__btn:not(:last-child) { 
+    
+    margin-right: 10px;
+}
+.toolbar__btn{
+    cursor: pointer;
+    &:hover{
+
+        transform: scale(1.1);
+    }
+}
+.material-icons { }

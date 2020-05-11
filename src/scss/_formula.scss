@@ -1,0 +1,16 @@
+.exel__formula { 
+    display: flex;
+    // padding: 3px 20px;
+}
+.exel__formula-fx {
+    font-style: italic;
+    font-size: 18px;
+    color: grey;
+    border-right: 1px solid $line-color;
+    width: $info-cell-width;
+    text-align: center;
+ }
+.exel__formula-input {
+    flex-grow: 1;
+    padding: 5px 15px 3px;
+ }

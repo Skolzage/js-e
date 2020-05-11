@@ -1,5 +1,31 @@
-$red: green;
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900&display=swap&subset=cyrillic,cyrillic-ext,latin-ext');
+@import "~normalize.css";
+@import "variables";
+@import "mixins";
+@import "header";
+@import "toolbar";
+@import "formula";
+@import "tables";
+@import "db";
 
-body {
-  background: $red;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+.container{
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.exel{
+  position: relative;
+  max-width: 100%;
+  height: 100%;
 }
